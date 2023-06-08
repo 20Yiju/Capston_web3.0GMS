@@ -1,0 +1,70 @@
+.greentoken {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #FBF7E5;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/4.png');
+    background-size: cover;
+}
+.orangetoken {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #FBF7E5;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/2.png');
+    background-size: cover;
+}
+.yellowtoken {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #FBF7E5;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/3.png');
+    background-size: cover;
+}
+.redtoken {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #FBF7E5;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/1.png');
+    background-size: cover;
+}
+.bluetoken {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #FBF7E5;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/5.png');
+    background-size: cover;
+}
+
+.tokenTitle {
+    margin: 34%;
+}
+.modal-content {
+    color: black;
+}
+
+/* AttendModal.css */
+
+.modal .overlay .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border-radius: 50%;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .overlay{
+    opacity:0.4;
+  }
+
+
+

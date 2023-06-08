@@ -1,0 +1,119 @@
+{
+  "name": "ls",
+  "author": "minimals.cc",
+  "licence": "MIT",
+  "version": "1.6.0",
+  "private": false,
+  "proxy": "http://localhost:4001",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx ./src",
+    "lint:fix": "eslint --fix --ext .js,.jsx ./src",
+    "clear-all": "rm -rf build node_modules",
+    "re-start": "rm -rf build node_modules && yarn install && yarn start",
+    "re-build": "rm -rf build node_modules && yarn install && yarn build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@faker-js/faker": "^7.6.0",
+    "@iconify/react": "^4.0.0",
+    "@mui/lab": "^5.0.0-alpha.103",
+    "@mui/material": "^5.10.9",
+    "apexcharts": "^3.36.0",
+    "axios": "^1.3.4",
+    "buffer": "^6.0.3",
+    "change-case": "^4.1.2",
+    "cipher-base": "^1.0.4",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "gapi-script": "^1.2.0",
+    "global": "^4.4.0",
+    "history": "^5.3.0",
+    "install": "^0.13.0",
+    "ipfs": "^0.66.0",
+    "ipfs-http-client": "^60.0.0",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "nft.storage": "^7.0.3",
+    "npm": "^9.6.1",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-big-calendar": "^1.5.2",
+    "react-calendar": "^4.0.0",
+    "react-dom": "^18.2.0",
+    "react-google-login": "^5.2.2",
+    "react-helmet-async": "^1.3.0",
+    "react-hook-form": "^7.37.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "^5.0.1",
+    "simplebar-react": "^2.4.3",
+    "stream-browserify": "^3.0.0",
+    "styled-components": "^5.3.6",
+    "truffle-contract": "^4.0.31",
+    "web-vitals": "^3.0.3",
+    "web3": "^1.9.0"
+  },
+  "resolutions": {
+    "stream": "stream-browserify"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/eslint-parser": "^7.19.1",
+    "@svgr/webpack": "^6.5.0",
+    "crypto-browserify": "^3.12.0",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  },
+  "overrides": {
+    "@svgr/webpack": "^6.5.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "license": "ISC"
+}

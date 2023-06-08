@@ -1,0 +1,70 @@
+.homework {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #FBF7E5;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/4.png');
+    background-size: cover;
+}
+.exam {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    color: #FBF7E5;
+    overflow: hidden;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/5.png');
+    background-size: cover;
+}
+
+.quiz {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    color: #FBF7E5;
+    overflow: hidden;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/3.png');
+    background-size: cover;
+}
+
+.gradetoken4 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    color: #FBF7E5;
+    overflow: hidden;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/4.png');
+    background-size: cover;
+}
+.gradetoken5 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    color: #FBF7E5;
+    overflow: hidden;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/5.png');
+    background-size: cover;
+}
+.exam {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    color: #FBF7E5;
+    overflow: hidden;
+    background-image: url('/home/ubuntu/Test/Web3.0_GMS/src/pages/user/token/5.png');
+    background-size: cover;
+}
+.gradetokenTitle {
+    margin: 20%;
+    margin-top: 30%;
+    text-align: center;
+}
+.midetermtokenTitle {
+    margin: 20%;
+    margin-top: 30%;
+    text-align: center;
+}
+.modal-content {
+    color: black;
+}
+
