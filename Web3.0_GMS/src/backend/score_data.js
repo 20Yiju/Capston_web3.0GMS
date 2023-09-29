@@ -3,8 +3,8 @@ import { Buffer } from 'buffer';
 const img = require("./Eat.png");
 
 export async function gradeTokenOffering(courseName, section, type, tokenName, totalScore, studentScore, comment) {
-  const projectId = '2PKNbqRWAqBWGvWrflkFT9uZmG3';
-  const projectSecret = '1167a7d29f2e9a311a0b154f9cac6241';
+  const projectId = '';
+  const projectSecret = '';
   const ipfs = create({
   	host: 'ipfs.infura.io',
   	port: 5001,
@@ -13,7 +13,6 @@ export async function gradeTokenOffering(courseName, section, type, tokenName, t
     		authorization: `Basic ${Buffer.from(`${projectId}:${projectSecret}`).toString('base64')}`,
   	},
   });
-//  const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEQ4MzVCZjIwYUI3NzhBMWM0ZjZDOURBMGQ4QkMxMmQ1MGRlNDFiODEiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3MzQyNTgyNzI4NiwibmFtZSI6InRlc3QxIn0.d6QO_mnvQoii02Ps4jC1YJA-tbK4RcziPSnNKd4s4ww";
 //  const client = new NFTStorage({token: apiKey});
 //  const response = await fetch(img);
 //  const buffer = await response.arrayBuffer();
