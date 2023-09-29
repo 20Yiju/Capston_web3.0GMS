@@ -9,7 +9,7 @@ export async function tokenOffering(courseName, section, type, tokenName, totalS
    // console.log(type);
    // console.log(tokenName);
    // console.log(totalScore);
-    const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEQ4MzVCZjIwYUI3NzhBMWM0ZjZDOURBMGQ4QkMxMmQ1MGRlNDFiODEiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3MzQyNTgyNzI4NiwibmFtZSI6InRlc3QxIn0.d6QO_mnvQoii02Ps4jC1YJA-tbK4RcziPSnNKd4s4ww";
+    const apiKey = "";
     const client = new NFTStorage({token: apiKey});
     const response = await fetch(img);
     const buffer = await response.arrayBuffer();
