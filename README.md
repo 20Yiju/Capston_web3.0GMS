@@ -148,7 +148,7 @@ https://tomato.ne.kr:4000/
 ## 📞 문의 및 기여
 
 - 프로젝트 관련하여 문의가 있으시면 다음 연락처로 연락 부탁드립니다.
-    - 📩 이메일: teamproject@tomato.ne.kr
+    - 📩 이메일: maasj7514@gmail.com
     - 📂 GitHub Repository: [Capston_web3.0GMS](https://github.com/20Yiju/Capston_web3.0GMS)
 
 ---
